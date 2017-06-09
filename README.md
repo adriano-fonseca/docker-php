@@ -6,6 +6,6 @@ $ docker build -t sistema-php7:0.0.1 .
 
 $ docker container run -d --name sistema -p 80:80 sistema-php7:0.0.1
 
-# Executando bash para debbug dentro do container
+# Executando bash para debug dentro do container
 
 $  docker container exec -it sistema-php7:0.0.1 sh
